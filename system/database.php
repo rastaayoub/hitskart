@@ -1,4 +1,7 @@
 <?php
+if(!defined('INSTALL')){
+	header("Location: install");
+}
 /* -------------------------------------------------------------- */
 
 $config['sql_host']       = 'remotemysql.com';
